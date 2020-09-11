@@ -1,0 +1,56 @@
+Practica de JavaScript, acerca de una libreria que tenga los siguientes metodos:
+    -Agregar libro
+    -Eliminar libro
+    -Editar libro
+    -Buscar un libro
+
+    ~Que sean almacenados los cambios en el LS.
+
+//////////////////////////////////////////////////////////////////////////
+LOCAL STORAGE:
+    -Nos permite almacenar datos que persisten sin importar el navegador se cierre o que el equipo se apague.
+    -Los datos almacenados se identifican por medio de un Key(clave) y un valor (de cualquier tipo, y convertirlo a String).
+    -Tiene un rango de almacenamiento de hasta 5mb por dominio.
+    -La información se almacena directamente en el navegador.
+    -A diferencia de las cookies, no se envia como petición http-https.
+
+SESSION STORAGE:
+    -Información de una sesion (por ejemplo un usuario que hizo login).
+    -Elimina información en automatico, a diferencia de Local storage.
+    -Capacidad de almacenamiento son 5mb.
+
+
+//////////////////////////////////////////////////////////////////////////
+
+[1, 2, 4]
+['', '', '', '']
+[true, false, true]
+
+Array objeto -> tipo de dato del objeto
+objeto => Persona
+arreglo => encuestados
+{
+    (nombre: '',
+    apellido: ''),
+
+    (nombre: '',
+    apellido: ''),
+
+    ...
+}
+Esto es un array de objetos llamado "JSON"
+
+##########################################################################
+.trim() es un metodo de JS que corta los espacios vacios \s a la izquierda o derecha de un String dejando asi solo un espacio y el texto.
+
+Mediante el static podemos acceder a un metodo de una clase sin ser instanciado
+
+JSON.parse() => convierte el objeto a string
+
+.getItem(key);
+
+El metodo "firstChild" Refresa el primer nodo hijo del elemento al que se aplica.
+    ejemp. <tr> <a></a> </tr>
+            tr.firstChild => la salida es el elemento a 
+
+event.preventDefault(); QUita la acci'on de recargar del submit, tambien se requiere cambiar type en html a button
